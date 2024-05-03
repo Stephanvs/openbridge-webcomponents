@@ -1,0 +1,24 @@
+{
+    "name": "@oicl/openbridge-webcomponents-solidjs",
+    "type": "module",
+    "scripts": {
+        "build": "tsc",
+        "build:watch": "tsc --watch"
+    },
+    "version": "0.0.12",
+    "dependencies": {
+        "@oicl/openbridge-webcomponents": "0.0.12",
+    },
+    "peerDepenencies": {
+        "solid-js": "1.8.17",
+    }
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ocean-Industries-Concept-Lab/openbridge-webcomponents.git",
+    "directory": "packages/openbridge-webcomponents-solidjs"
+  },
+  "license": "Apache-2.0"
+}
